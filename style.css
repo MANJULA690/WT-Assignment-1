@@ -15,7 +15,7 @@ h2{
     font-size:56px;
     line-height: 54px;
     color:#222;
-} 
+}
 h4{
     font-size:30px;
    
@@ -183,14 +183,14 @@ body{
     justify-content: center;
     align-items:flex-start;
     padding: 30px;
-    background-image: url("explore.jpg");
+    background-image: url("assets/explore.jpg");
     min-width: 520px;
     height: 50vh;
     background-size: cover;
     background-position: center;
 }
 #sm-banner .banner-box2{
-    background-image: url("college.jpg");
+    background-image: url("assets/college.jpg");
 
 }
 #sm-banner h4{
@@ -222,7 +222,6 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("b14.png");
     background-repeat: no-repeat;
     background-position:20% 30% ;
     background-color: #041e42;
@@ -265,6 +264,7 @@ body{
     border-bottom-left-radius: 0;
 }
 /* Footer */
+
 .section-p1{
   display: flex;
 }
@@ -282,8 +282,8 @@ footer .col{
 }
 
 footer .logo{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 30px;
 }
 
@@ -316,6 +316,8 @@ footer .follow i{
 
 footer .install .row img{
     border:1px solid #088178;
+    height: 60px;
+    width: 400px;
     border-radius: 6px;
 }
 footer .install img{
@@ -325,15 +327,7 @@ footer .follow i:hover,footer a:hover{
     color: #088178;
 }
 
-footer .copyright{
-    width:100%;
-    text-align: center;
-}
 
-/* About Page */
-#page-header.about-header{
-    background-image: url("banner.png");
-}
 #about-head{
     display: flex;
     align-items: center;
@@ -466,10 +460,7 @@ footer .copyright{
 /* Start Media Query */
 
 @media (max-width:799px){
-   
-   
-     
-    
+
   
     #feature{
         justify-content: center;
